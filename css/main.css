@@ -19,14 +19,34 @@ body { /* Website Body */
     font-size: 20px;
 }
 div { /* Division */
-  padding: 10px;
+  padding: 10px 15px;
+}
+div.heading {
+  background-color: #62655c;
+  width: fit-content;
+  margin: 10px;
+  padding: 0px 10px;
+  border-radius: 30px / 30px;
 }
 div.section {
   background-color: #243b35;
+  margin: 0px 20px;
+  padding: 20px;
 }
+
 p { /* Paragraph */
   padding: 10px;
   text-align: left;
+}
+p.left {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+}
+p.right {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
 }
 p.h1 {
     font-size: 30px;

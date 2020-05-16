@@ -8,7 +8,9 @@
     <link rel="stylesheet" type="text/css" href="css/header.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/typewriter.css" />
+    <link rel="stylesheet" type="text/css" href="css/button.css" />
     <script src="javascript/main.js"></script>
+    <script src="javascript/button.js"></script>
     <script src="javascript/typewriter.js"></script>
     <title>Project Campsite</title>
     <nav>
@@ -35,10 +37,12 @@
   </head>
 
   <body>
-    <div id="about">
+    <div class="heading" id="about">
       <p class="h1">
         About
       </p>
+    </div>
+    <div>
       <p>
         Hello, Welcome to <strong>CAMPSITE</strong>.<br />
         <br />Campsite is a pet project, and was developed to create a space
@@ -52,7 +56,7 @@
     </div>
     <div class="section">
       <span class="logo"><a>CAMPSITE</a></span>
-      <span><br />is<br /></span>
+      <span><br>is<br></span>
       <span
         class="txt-rotate"
         data-period="2000"
@@ -60,25 +64,49 @@
       ></span>
     </div>
 
-    <div id="the-big-red-button">
+    <div class="heading" id="the-big-red-button">
       <p class="h1">
         The Big Red Button
       </p>
     </div>
-    <div id="the-spinning-campfire">
+    <div>
+      <p class="left">
+        <warning class="warning" id="warning-text">
+          <strong>ATTENTION USER, please do not press the button.</strong><br>
+          <br>It is extremely dangerous and should be avoided at all costs...<br>
+        </warning>
+      </p>
+      <p class="right">
+        <button class="button" onclick="buttonClick()">Click Me :)</button><br>
+        <br>
+        <speech-bubble class="speech-bubble" id="button-speech">Hello, I'm a harmless little button!</speech-bubble>
+      </p>
+    </div>
+
+
+    <div class="heading" id="the-spinning-campfire">
       <p class="h1">
         The Spinning Campfire
       </p>
     </div>
-    <div id="never-winning-tic-tac-toe">
+    <div>
+
+    </div>
+    <div class="heading" id="never-winning-tic-tac-toe">
       <p class="h1">
         Never Winning Tic-Tac-Toe
       </p>
     </div>
-    <div id="contact">
+    <div>
+      
+    </div>
+    <div class="heading" id="contact">
       <p class="h1">
         Contact
       </p>
+    </div>
+    <div>
+      
     </div>
   </body>
 </html>
