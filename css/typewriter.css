@@ -1,0 +1,9 @@
+.txt-rotate {
+    color: aqua;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.txt-rotate > .wrap { 
+    border-right: 0.08em solid #ddd;
+}

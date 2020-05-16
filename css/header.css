@@ -1,0 +1,76 @@
+.logo a {
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  word-spacing: 4px;
+  color: #ffffff;
+  text-align: center;
+}
+.logo a mark.blue {
+  color: navy;
+}
+.logo a:hover {
+  text-decoration: none;
+}
+.menu li {
+  font-size: 16px;
+  padding: 15px 10px;
+  white-space: wrap;
+}
+
+/* Mobile menu */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.item {
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+.item:hover {
+  background-color: grey;
+}
+.item a:hover {
+  text-decoration: underline;
+}
+.change .item {
+  display: block;
+}
+
+/* Harmburger Menu Button */
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Menu Bars */
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #ddd;
+  margin: 6px 0;
+  transition: 0.1s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}

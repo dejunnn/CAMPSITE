@@ -1,0 +1,43 @@
+/* Basic Website Styling */
+* { /* Website Formatting */
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html { /* HTML element formatting */
+  background: darkslategray;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+nav { /* Website Navigation Bar */
+    background: #222;
+    padding: 10px;
+}
+body { /* Website Body */
+    font-size: 20px;
+}
+div { /* Division */
+  padding: 10px;
+}
+div.section {
+  background-color: #243b35;
+}
+p { /* Paragraph */
+  padding: 10px;
+  text-align: left;
+}
+p.h1 {
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+a { /* Hyperlink attribute */
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+} 
+a:hover { /* Hyperlink hover attribute */
+  text-decoration: none;
+}
